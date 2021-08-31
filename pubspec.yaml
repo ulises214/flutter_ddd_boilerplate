@@ -1,0 +1,26 @@
+name: flutter_app_boilerplate
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_app_boilerplate_context:
+    path: ./packages/flutter_app_boilerplate_context/
+  flutter_app_boilerplate_design_system:
+    path: ./packages/flutter_app_boilerplate_design_system/
+  font_awesome_flutter:
+    path: ./packages/font_awesome_flutter/
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^2.3.0
+
+flutter:
+  uses-material-design: true
