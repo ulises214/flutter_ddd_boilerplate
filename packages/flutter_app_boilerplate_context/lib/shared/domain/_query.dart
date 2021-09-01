@@ -9,7 +9,4 @@ abstract class Query {
   ///
   /// Useful for storing or sending by http
   Map<String, dynamic> toJson();
-
-  /// Creates a query from primitive data
-  Query fromJson(Map<String, dynamic> data);
 }
