@@ -1,7 +1,9 @@
 part of '_use_case.dart';
 
+/// Manage the query to get a user from id
 class FindUserByIdQueryHandler
     extends QueryHandler<FindUserByIdQuery, UserResponse> {
+  /// Initialize the runner for the handler
   FindUserByIdQueryHandler(this._runner);
   final FindUserByIdRunner _runner;
   @override
