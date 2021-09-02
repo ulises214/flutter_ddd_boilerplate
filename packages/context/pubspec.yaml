@@ -10,7 +10,7 @@ environment:
 dependencies:
   faker: ^2.0.0
   flutter_app_boilerplate_dependency_injection:
-    path: ../flutter_app_boilerplate_dependency_injection/
+    path: ../dependency_injection/
   flutter:
     sdk: flutter
   fzregex: ^2.0.0

@@ -86,7 +86,7 @@ packages:
   flutter_app_boilerplate_dependency_injection:
     dependency: "direct main"
     description:
-      path: "../flutter_app_boilerplate_dependency_injection"
+      path: "../dependency_injection"
       relative: true
     source: path
     version: "0.0.1"

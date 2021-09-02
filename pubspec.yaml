@@ -12,9 +12,11 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_app_boilerplate_context:
-    path: ./packages/flutter_app_boilerplate_context/
+    path: ./packages/context/
   flutter_app_boilerplate_design_system:
-    path: ./packages/flutter_app_boilerplate_design_system/
+    path: ./packages/design_system/
+  flutter_app_boilerplate_dependency_injection:
+    path: ./packages/dependency_injection/
   font_awesome_flutter:
     path: ./packages/font_awesome_flutter/
 dev_dependencies:
